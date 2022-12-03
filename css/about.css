@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #000;
+    max-width: 1200px;
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header ul {
+    display: flex;
+    margin-top: 15px;
+}
+.header li{
+    margin-left: 20px;
+    list-style-type: none;
+}
+.header a{
+    color: #707070;
+}
+.header a:hover{
+    color: #fff;
+    border-bottom: 1px solid #306EF7;
+    transition: 0.4s ease-in-out;
+}
+a{
+    text-decoration: none;
+}
+.header__log{
+    background-color: transparent;
+    margin-top: 10px;
+    width: 130px;
+    height: 40px;
+}
+.header__log a:hover{
+    color: #fff;
+}
+.header__sign{
+    background-color: #306EF7;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+}
+.header__sign a{
+    color: #fff;
+}
+.header__sign a:hover{
+    border-bottom: none;
+}
+
+/* MAIN  */
+.company__logo{
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+}
+.company__logo h6{
+    color: #306EF7;
+    margin-top: 40px;
+}
+.company__logo h2{
+    font-size: 42px;
+}
+.main__text{
+    color: #fff;
+    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main__text h5{
+    margin-top: 40px;
+}
+
+.main__hr{
+    width: 700px;
+    color: #828282;
+    margin-bottom: 100px;
+    margin-left: -60px;
+    padding-bottom: 100px;
+}
+.our__team{
+    text-align: center;
+}
+.our__team h6{
+    color: #306EF7;
+}
+.main__inner{
+    display: flex;
+    margin-left: -15px;
+    margin-top: 40px;
+}
+.main__item{
+    margin-left: 200px;
+}
+.main__item p{
+    color: #828282;
+}
+.main__logo{
+    margin-top: 100px;
+}
+.logo{
+    width: 100px;
+    margin-left: 45%;
+}
+.main__logo h1{
+    margin-left: 32%;
+    font-size: 52px;
+}
+.main__logo h4{
+    margin-left: 350px;
+}
+.main__logo button{
+    margin-left: 470px;
+    width: 200px;
+    height: 40px;
+    background-color: #306EF7;
+    color: #fff;
+    border-radius: 10px;
+}
+.dot{
+    margin-left: 420px;
+    margin-right: 5px;
+}
+.main__logo span{
+    color: #707070;
+}
+.footer__logo{
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+.footer__logo ul{
+    display: flex;
+}
+.footer__logo li{
+    margin-left: 20px;
+    list-style-type: none;
+    margin-top: 15px;
+}
+.footer__logo a{
+    color: #707070;
+}
+
+.dot{
+    width: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: #000;
+    }
+    .container{
+        margin: 0;
+        padding: 0;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    .header{
+        display: block;
+    }
+    .header img{
+        width: 100px;
+        margin-left: 140px;
+    }
+    .header ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header li{
+        font-size: 12px;
+    }
+    .header button{
+        width: 80px;
+        font-size: 12px;
+        height: 30px;
+        margin-left: 60px;
+    }
+    .header__log{
+        background-color: transparent;
+        border: 1px solid #306EF7;
+        border-radius: 10px;
+    }
+    .header__sign{
+        border: none;
+    }
+    .company__logo h2{
+        font-size: 22px;
+    }
+    .main__text {
+        width: 350px;
+    }
+    .main__text p{
+        width: 350px;
+        margin-right: 0px;
+    }
+    .main__text h5{
+        font-size: 15px;
+    }
+    .main__text hr{
+        width: 350px;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        display: none;
+    }
+    .main__inner{
+        display: block;
+    }
+    .main__item{
+        margin-bottom: 50px;
+        margin-left: 30px;
+    }
+    .main__logo img{
+        width: 80px;
+        margin-left: 150px;
+    }
+    .main__logo h1{
+        font-size: 22px;
+    }
+    .main__logo h4{
+        margin-left: 10px;
+        text-align: center;
+    }
+    .main__logo button{
+        margin-left: 80px;
+    }
+    .main__logo p{
+        margin-bottom: 100px;
+
+    }
+    .main__logo p img{
+        margin-left: 0;
+        width: 20px;
+        margin-left: 40px;
+        height: 20px;
+    }
+    .footer__logo{
+        display: none;
+    }
+}
